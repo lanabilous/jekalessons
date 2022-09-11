@@ -1,0 +1,51 @@
+* {
+  color: grey;
+}
+
+div {
+  color: orange;
+}
+a {
+  color: green;
+}
+
+.text {
+  color: pink;
+}
+
+#red {
+  color: red;
+}
+
+div.text {
+  color: yellow;
+}
+
+.lesson.text {
+  color: violet;
+}
+.lesson,
+.text {
+  color: olive;
+}
+.text p {
+  color: coral;
+}
+
+.text .lesson {
+  color: aquamarine;
+}
+
+.text * {
+  color: blue;
+}
+
+.text > p {
+  color: lightblue;
+}
+.text ~ p {
+  color: darkred;
+}
+.text + p {
+  color: darkorchid;
+}
