@@ -1,87 +1,111 @@
-/* Комбінація класів */
-/* text ТА lesson */
-/*
-.text,
-.lesson{
-	color: red;
-}
-*/
-/* text ТА lesson ОДНОЧАСНО!!! */
-/*
-.text.lesson{
-	color: red;
-}
-*/
-
-/* Вкладеність класів */
-/*
-.text .lesson {
-	color: red;
-}
-*/
-
-/* -------- ПРІОРИТЕТ СЕЛЕКТОРІВ ------------ */
-/*
-Основні правила формування пріоритетів: 
-1) У випадку рівнозначних селекторів більший 
-пріоритет буде у останього по коду.
-2) Більший пріоритет завжди буде у селектора,
-який звужує (уточює, конкретизує) пошук (запит).
-3) Пріоритет у рядкових (inline) стилів (атрибут style="") вищий ніж у стилів з окремого файлу (наприклад style.css)
-4) Флаг !important перезаписує пріоритет (не рекомендується)
-*/
-
-/* ==================== */
-/*
-../ - вийти з папки на один рівень вище
-*/
-/* ======================= */
-
-/* ====================== ШРИФТИ =============================== */
-
-/*--------- Підключення шрифтів ---------------- */
-
-/* @import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
 @font-face {
-	font-family: "CircularStd";
-	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
-	font-display: swap;
-	font-weight: 400;
-	font-style: normal;
+  font-family: "Larsseit";
+  src: url("../fonts/Larsseit-Regular.woff2") format("woff2"),
+    url("../fonts/Larsseit-Regular.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
 }
 @font-face {
-	font-family: "CircularStd";
-	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
-	font-display: swap;
-	font-weight: 500;
-	font-style: normal;
+  font-family: "Larsseit";
+  src: url("../fonts/Larsseit-Medium.woff2") format("woff2"),
+    url("../fonts/Larsseit-Medium.woff") format("woff");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
 }
 @font-face {
-	font-family: "CircularStd";
-	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
-	font-display: swap;
-	font-weight: 700;
-	font-style: normal;
+  font-family: "Larsseit";
+  src: url("../fonts/Larsseit-Bold.woff2") format("woff2"),
+    url("../fonts/Larsseit-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.woff2") format("woff2"),
+    url("../fonts/Lato-Regular.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
 }
 @font-face {
-	font-family: "CircularStd";
-	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
-	font-display: swap;
-	font-weight: 900;
-	font-style: normal;
+  font-family: "Lato";
+  src: url("../fonts/Lato-Bold.woff2") format("woff2"),
+    url("../fonts/Lato-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Black.woff2") format("woff2"),
+    url("../fonts/Lato-Black.woff") format("woff");
+  font-display: swap;
+  font-weight: 900;
+  font-style: normal;
 }
 
-body{
-	font-family: "CircularStd";
+body {
+  font-family: "Larsseit";
+  font-weight: 500;
+}
+* {
+  color: darkblue;
 }
 
-
-.title{
-	font-family: "Qwitcher Grypen";
+div {
+  color: red;
 }
- */
+a {
+  font-family: "Roboto";
+  font-weight: 500;
+  color: coral;
+}
 
-/* -------- CSS-властивості шрифтів ------------ */
+.text {
+  color: pink;
+}
+.text.lesson p {
+  color: darkviolet;
+}
+.lesson .text {
+  color: aquamarine;
+}
+.lesson {
+  color: darkcyan;
+}
+ul.list li {
+  color: olivedrab;
+}
 
-/* -------- CSS-властивості тексту ------------ */
+ol.list li {
+  color: green;
+}
+
+ol.list span {
+  color: yellowgreen;
+}
+
+.title {
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+h2.title {
+  font-family: "Larsseit";
+  font-weight: 700;
+}
+
+span.source {
+  font-family: "Lato";
+  font-weight: 900;
+}
+a.source {
+  font-family: "Lato";
+  font-weight: 700;
+}
