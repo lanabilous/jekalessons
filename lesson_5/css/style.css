@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cousine:ital,wght@1,700&display=swap");
+
+@font-face {
+  font-family: "Aftaserif", serif;
+  src: url("../fonts/Aftaserif-Italic.woff2") format("woff2"),
+    url("../fonts/Aftaserif-Italic.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Aftaserif", serif;
+  src: url("../fonts/Aftaserif.woff2") format("woff2"),
+    url("../fonts/Aftaserif.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OregonLDO", sans-serif;
+  src: url(../fonts/OregonLDO.woff2) format("woff2"),
+    url(../fonts/OregonLDO.woff) format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OregonLDO", sans-serif;
+  src: url(../fonts/OregonLDO-Bold.woff2) format("woff2"),
+    url(../fonts/OregonLDO-Bold.woff) format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "EBGaramond", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.title {
+  font-family: "OregonLDO", sans-serif;
+  font-weight: 700;
+  color: darkslateblue;
+  text-align: justify;
+  text-shadow: 3px 5px 10px darkslateblue;
+  text-shadow: -5px 10px 3px rgb(37, 8, 28);
+  text-transform: uppercase;
+  /* white-space: nowrap; */
+}
+.title-section {
+  font-family: "OregonLDO", sans-serif;
+  font-weight: 700;
+  color: rgba(1, 1, 85, 0.702);
+  text-align: center;
+  text-shadow: 3px 5px 15px rgb(183, 178, 218);
+  text-transform: capitalize;
+}
+a {
+  font-family: "EBGaramond", sans-serif;
+  text-decoration: underline;
+}
+/* li a {
+  font-family: "OregonLDO", sans-serif;
+  font-weight: 400;
+  color: darkslateblue;
+} */
+ol {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "OregonLDO", sans-serif;
+  font-weight: 400;
+  color: darkslateblue;
+  line-height: 2;
+}
+ul.list {
+  font-family: "EBGaramond", sans-serif;
+  font-style: italic;
+  font-weight: 200;
+  color: olive;
+  text-align: right;
+}
+
+p.text {
+  font-family: "Aftaserif", serif;
+  font-style: normal;
+  font-weight: 400;
+  color: green;
+}
+
+p span {
+  font-family: "Caveat", cursive;
+  font-style: italic;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+p.introduction {
+  font-family: "Aftaserif", serif;
+  font-style: italic;
+  font-weight: 400;
+  color: green;
+}
+
+p a {
+  font-family: "Aftaserif", serif;
+  font-style: italic;
+  font-weight: 400;
+  color: rgba(1, 1, 85, 0.702);
+}
+mark {
+  color: rgba(1, 1, 85, 0.702);
+  font-family: "Cousine", monospace;
+  font-style: italic;
+  font-weight: 700;
+}
+.do-not-do-it {
+  font-family: "Cousine", monospace;
+  font-style: italic;
+  font-weight: 400;
+  color: rgb(67, 70, 79);
+  text-decoration: line-through;
+}
+a.source {
+  font-family: "Caveat", cursive;
+  font-style: italic;
+  font-weight: 500;
+  color: darkblue;
+  text-decoration: underline;
+}
+a.start {
+  font-family: "Cousine", monospace;
+  font-style: italic;
+  font-weight: 700;
+  text-decoration: overline;
+  color: darkred;
+}
+h2.title-section.praise {
+  text-transform: lowercase;
+}
+.no-criticizm {
+  text-transform: uppercase;
+  word-spacing: 15px;
+}
+.be-sure {
+  text-transform: capitalize;
+}
+.limits {
+  text-indent: 25px;
+}
