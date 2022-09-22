@@ -82,6 +82,7 @@ ul.list {
   font-weight: 200;
   color: olive;
   text-align: right;
+  padding-right: 20px;
 }
 
 p.text {
@@ -89,6 +90,7 @@ p.text {
   font-style: normal;
   font-weight: 400;
   color: green;
+  padding-left: 20px;
 }
 
 p span {
@@ -104,6 +106,7 @@ p.introduction {
   font-style: italic;
   font-weight: 400;
   color: green;
+  padding: 20px 15px 15px;
 }
 
 p a {
@@ -148,7 +151,28 @@ h2.title-section.praise {
 }
 .be-sure {
   text-transform: capitalize;
+  padding: 20px;
 }
 .limits {
   text-indent: 25px;
+  padding: 20px 10px 15px 15px;
+}
+.how-to {
+  padding: 10%;
+  /* width: 400px; */
+}
+.think-over {
+  margin-left: 5px;
+}
+.it-is-easier {
+  margin: 10px 5px 20px 20px;
+}
+.block {
+  background-color: rgb(15, 195, 231);
+  padding: 20px 15px;
+  margin-bottom: -30px;
+  /* width: 400px; */
+}
+.inline {
+  background-color: rgb(24, 52, 191);
 }
