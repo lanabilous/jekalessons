@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cousine:ital,wght@1,700&display=swap");
 
 @font-face {
-  font-family: "Aftaserif", serif;
+  font-family: "Aftaserif";
   src: url("../fonts/Aftaserif-Italic.woff2") format("woff2"),
     url("../fonts/Aftaserif-Italic.woff") format("woff");
   font-display: swap;
@@ -12,7 +12,7 @@
 }
 
 @font-face {
-  font-family: "Aftaserif", serif;
+  font-family: "Aftaserif";
   src: url("../fonts/Aftaserif.woff2") format("woff2"),
     url("../fonts/Aftaserif.woff") format("woff");
   font-display: swap;
@@ -20,7 +20,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "OregonLDO", sans-serif;
+  font-family: "OregonLDO";
   src: url(../fonts/OregonLDO.woff2) format("woff2"),
     url(../fonts/OregonLDO.woff) format("woff");
   font-display: swap;
@@ -28,7 +28,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "OregonLDO", sans-serif;
+  font-family: "OregonLDO";
   src: url(../fonts/OregonLDO-Bold.woff2) format("woff2"),
     url(../fonts/OregonLDO-Bold.woff) format("woff");
   font-display: swap;
