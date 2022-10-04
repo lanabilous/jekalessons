@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic&display=swap");
+
+body {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  color: #424551;
+}
+
+[class*="__container"] {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+.page {
+}
+.page__container {
+}
+.page__title {
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 130%;
+  margin-bottom: 92px;
+  color: #1e212c;
+}
+.page__image {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.page__image img {
+  max-width: 100%;
+}
+
+.page__main-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1e212c;
+  margin-bottom: 24px;
+}
+.page__text {
+  line-height: 160%;
+}
+.page__quote {
+}
