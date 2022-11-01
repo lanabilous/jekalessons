@@ -2,8 +2,6 @@
 
 body {
   font-family: "Lato";
-  font-weight: 400;
-  font-size: 16px;
   color: #424551;
 }
 
@@ -19,7 +17,7 @@ body {
   font-size: 46px;
   font-weight: 900;
   line-height: 130%;
-  margin-bottom: 92px;
+  margin-bottom: 26px;
   color: #1e212c;
 }
 .page__image {
@@ -37,8 +35,33 @@ body {
   color: #1e212c;
   margin-bottom: 24px;
 }
+
 .page__text {
   line-height: 160%;
+  margin-bottom: 48px;
+}
+.page__text p {
+  margin-bottom: 26px;
 }
 .page__quote {
+}
+
+.page__quote p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1e212c;
+  margin-bottom: 48px;
+  padding-left: 58px;
+  background: url("../img/icons/braces.svg") 0 0 no-repeat;
+}
+.page__text ul {
+  margin-bottom: 24px;
+}
+
+.page__text li {
+  background: url("../img/icons/check.svg") 0 6px no-repeat;
+  padding-left: 32px;
+  min-height: 35px;
+  margin-bottom: 4px;
 }
